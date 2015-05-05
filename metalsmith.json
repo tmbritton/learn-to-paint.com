@@ -1,0 +1,27 @@
+{
+  "destination": "_site",
+	"metadata": {
+    "title": "Learn to Paint",
+    "description": "Learn to paint for free, as in beer and speach."
+  },
+  "plugins": {
+    "metalsmith-drafts": true,
+    "metalsmith-markdown": true,
+    "metalsmith-collections": {
+      "pages": {
+        "pattern": "*.md"
+      }
+    },
+    "metalsmith-permalinks": {
+      "pattern": ":title"
+    },
+    "metalsmith-templates": { 
+			"engine": "handlebars",
+      "directory": "./templates",
+      "partials": {
+        "header": "partials/header",
+        "footer": "partials/footer"
+      }
+    }
+  }
+}

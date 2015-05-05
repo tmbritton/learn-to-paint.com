@@ -1,0 +1,25 @@
+{
+  "name": "learn-to-paint.com",
+  "version": "0.0.1",
+  "description": "Metalsmith static site for learn-to-paint.com",
+  "main": "index.js",
+  "dependencies": {
+    "handlebars": "^3.0.3",
+    "metalsmith": "^1.7.0",
+    "metalsmith-collections": "^0.7.0",
+    "metalsmith-drafts": "0.0.1",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.4.0",
+    "metalsmith-templates": "^0.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ssg",
+    "metalsmith"
+  ],
+  "author": "Thomas Britton",
+  "license": "ISC"
+}
